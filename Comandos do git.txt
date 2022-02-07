@@ -1,0 +1,22 @@
+git --version
+Mostra a versão do git que está instalada atulamente
+___________________________________________________________
+git init
+Cria um repositório
+___________________________________________________________
+git add **nome do arquivo**
+Deixa o arquivo preparado para receber o commit
+___________________________________________________________
+git status
+Mosta o estado do repositório
+___________________________________________________________
+git commit -m "insira a mensagem da versão"
+Realiza o commit/versão do arquivo
+___________________________________________________________
+git remote add origin **link do seu repositório no github**
+Faz a conexão entre o git em seu computador e o repositório
+do github onde será hospedado o seu código
+___________________________________________________________
+git push -u origin main
+Realiza o envio do arquivo para o repositório do github
+___________________________________________________________
